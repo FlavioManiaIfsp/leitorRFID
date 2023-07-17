@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rfid_educa.controller.TelaPrincipalController">
+   <children>
+      <Button fx:id="btnAcao" layoutX="77.0" layoutY="59.0" mnemonicParsing="false" onAction="#consultaLetras" text="Consultar Letras" />
+      <Button fx:id="btnGravar" layoutX="77.0" layoutY="132.0" mnemonicParsing="false" onAction="#inserirLetras" text="Cadastrar Letras" />
+   </children>
+</AnchorPane>
